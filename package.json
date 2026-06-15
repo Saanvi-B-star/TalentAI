@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "precompute": "node precompute/embedJD.js",
+    "rank": "node rank.js"
   },
   "dependencies": {
     "@radix-ui/react-progress": "^1.1.9",

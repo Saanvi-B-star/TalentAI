@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: ["@xenova/transformers"],
-  },
+  serverExternalPackages: ['@xenova/transformers'],
 
   webpack: (config) => {
     config.resolve.alias = {

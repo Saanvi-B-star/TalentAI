@@ -1,0 +1,9 @@
+{
+  "semanticFit": 0.40,
+  "careerAlignment": 0.30,
+  "behavioralSignals": 0.20,
+  "practicalFit": 0.10,
+  "honeypotFilterEnabled": true,
+  "noticePeriodMaxDays": 60,
+  "salaryBudgetMaxLPA": 50
+}
